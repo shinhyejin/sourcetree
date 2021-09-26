@@ -18,7 +18,13 @@ main {
   display: flex; }
   main header {
     height: 100%;
-    width: 20%; }
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    color: #fff; }
   main section {
     width: 80%;
     height: 100%;
@@ -29,10 +35,10 @@ main {
       overflow: hidden;
       filter: saturate(10%);
       opacity: 0.3;
-      transition: 0.8s; }
+      transition: 0.5s; }
       main section article:hover {
         filter: saturate(150%);
-        flex: 2;
+        flex: 1.5;
         opacity: 1; }
       main section article img {
         width: 100%;
